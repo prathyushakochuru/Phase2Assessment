@@ -4,15 +4,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<style type="text/css">
+body {
+   text-align:center;
+  
+}</style>
 <title>Insert title here</title>
 </head>
+
+<br>
 <body>
+<%@include file="header.html" %>
 <%
 if(session.getAttribute("uName") !=null)
 {
 	response.sendRedirect("admin.jsp");
 }
 %>
+
+
 <form action="authenticate" method="get">
 <h2>Please login</h2>
 <h3>Username: </h3>

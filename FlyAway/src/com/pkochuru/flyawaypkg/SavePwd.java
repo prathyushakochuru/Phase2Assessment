@@ -57,7 +57,9 @@ public class SavePwd extends HttpServlet {
 			
 			if(statement.executeUpdate(strsql) > 0)
 			{
-				out.println("<h2>Updated Successfully</h2>");
+				out.println("<h2>Updated Successfully</h2><br><br>");
+				out.println("<h4><a href =\"logout\" >Log out</a></h4>");
+				
 			}
 			
 		}

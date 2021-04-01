@@ -18,24 +18,37 @@ form {
 margin: 0 auto; 
 width:800px;
 }
-input[type=submit] {
+
+      input[type=submit] {
+        background-color: #62529c;
+        border: none;
+        color: #fff;
         padding: 5px 15px;
-        background: #99e0b2;
-        border: 0 none;
+        text-decoration: none;
+        margin: 4px 2px;
         cursor: pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
+      }
+      button
+      {
+      background-color: #62529c;
+        border: none;
+        color: #fff;
+        padding: 5px 15px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
       }
 </style>
 <title>FlyAway</title>
 </head>
-<body style="background-color:#F0F8FF">
-<h1 style="text-align:center; color:green">Welcome to FlyAway.com - Ultimate flight booking portal</h1>
-<a href= "login.jsp">Admin Login</a>
-<img src="Airplane.jpg"
-     alt="flight" width="800" height="228">
-  
 
+<body style="background-color:#F0F8FF">
+<%@include file="header.html" %>
+<a href= "login.jsp"><button>Admin Login</button></a>
+<img src="Travel5.jpeg"
+     alt="flight" width="800" height="200">
+ 
+<div align="center">
 <form action="home" method="get">
 <h2 style="text-align:center">Search for the flights</h2>
 <label ><strong> Select Source: </strong></label>  
@@ -51,7 +64,7 @@ input[type=submit] {
 <option value = "NewYork, NY, USA"> NewYork, NY, USA  
 </option>  
 </select>  
-
+&nbsp; &nbsp;
 <label><strong>Select Destination: </strong></label>  
 <select name="lbldest">
 <option value = "default"> --------
@@ -65,17 +78,16 @@ input[type=submit] {
 <option value = "NewYork, NY, USA"> NewYork, NY, USA  
 </option>  
 </select>
-
+<br><br>
 <strong>Date of Travel: </strong><input type = "date" name="dot"> 
-<br/>
-<br>
+&nbsp; &nbsp;
 <strong>No. of Travelers: </strong>
 <input type="text"  name = "noTravelers">
-&nbsp &nbsp
+<br><br><br>
 <input style="align:center"type="submit" value = "GO">
 
 
 </form>
-     
+  </div>   
 </body>
 </html>
