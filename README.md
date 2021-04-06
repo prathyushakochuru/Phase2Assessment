@@ -13,4 +13,4 @@ This repository has the following documents:
 1. Website Specification document
 2. Application Flowchart
 3. Working website screenshot document.
-4. Jirs - Sprint Cumulative report
+4. Jira - Sprint Cumulative report
