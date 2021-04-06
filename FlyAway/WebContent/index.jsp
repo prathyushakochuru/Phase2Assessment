@@ -44,7 +44,7 @@ width:800px;
 
 <body style="background-color:#F0F8FF">
 <%@include file="header.html" %>
-<a href= "login.jsp"><button>Admin Login</button></a>
+
 <img src="Travel5.jpeg"
      alt="flight" width="800" height="200">
  

@@ -9,7 +9,7 @@ body {
    text-align:center;
   
 }</style>
-<title>Insert title here</title>
+<title>Admin Login</title>
 </head>
 
 <br>
